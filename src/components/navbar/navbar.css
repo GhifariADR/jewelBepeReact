@@ -1,0 +1,28 @@
+.navbar-brand{
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.navbar-brand span{
+    font-family: "Kapakana", cursive;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.navbar-item{
+    cursor: pointer;
+  transition: font-weight 0.2s, border-bottom 0.2s;
+  border-bottom: 2px solid transparent;
+  display: inline-block;
+  padding-bottom: 2px;
+}
+
+.navbar-item p{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar-item p:hover {
+    font-weight: 700;
+    border-bottom: 2px solid white;
+}
