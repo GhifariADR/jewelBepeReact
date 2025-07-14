@@ -1,0 +1,23 @@
+.bg-image {
+    background-image: url("../../assets/profile-hero.svg");
+    background-position: center; /* Center the image */
+    height: 500px;
+    width: 100%;
+}
+
+.text{
+    font-size: 77px;
+}
+
+.text span {
+    font-family: "Kapakana", cursive;
+    font-size: 152px;
+}
+
+.about-us{
+    font-size: 47px;
+}
+
+.about-us .row p {
+    font-size: 24px;
+}
