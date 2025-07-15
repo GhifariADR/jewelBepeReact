@@ -1,4 +1,5 @@
 import React from 'react'
+import './contact.css'
 
 const ContactDetail:React.FC = () => {
   return (
@@ -8,13 +9,13 @@ const ContactDetail:React.FC = () => {
                 <h1 className='fw-medium'>Contact</h1>
             </div>
             <div className='row'>
-                <p className='fw-light'>Email: jewelbybepeatelier@gmail.com
+                <p className='fw-light' style={{fontSize : '22px'}}>Email: jewelbybepeatelier@gmail.com
                 </p>
 
-                <p className='fw-light'>Phone: +62 822‑3003‑1898
+                <p className='fw-light' style={{fontSize : '22px'}}>Phone: +62 822‑3003‑1898
                 </p>
 
-                <p className='fw-light'>Adress: Offline store Pillar, Plaza Indonesia
+                <p className='fw-light' style={{fontSize : '22px'}}>Adress: Offline store Pillar, Plaza Indonesia
                 </p>
 
             </div>

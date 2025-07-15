@@ -13,7 +13,7 @@ const Footer:React.FC = () => {
         marginTop: 'auto',
       }}
     >
-      <p style={{ color: '#333', margin: 0 }}>© 2025 Your Company</p>
+      <p style={{ color: '#333', margin: 0 }}>© JewelbyBepe</p>
     </footer>
   )
 }
