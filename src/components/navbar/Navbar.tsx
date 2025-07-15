@@ -11,7 +11,7 @@ const Navbar:React.FC = () => {
   return (
     <div className='navbar' style={{backgroundColor: '#20201F', height : '100px'}}>
         <div className='container d-flex justify-content-between'>
-            <div className='text-white navbar-brand'>
+            <div className='text-white navbar-brand' style={{cursor: 'pointer'}} onClick={() => navigate('/')}>
                 <h1>Jewel by <span>Bepe</span></h1>
             </div>
             <div className='d-md-flex text-white gap-5 d-none'>            
